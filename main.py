@@ -224,7 +224,7 @@ async def account_login(bot: Client, m: Message):
                     #input4 = message = await bot.listen(editable.chat.id)
                     #raw_text4 = input4.text
 
-                    cc = f"**{str(count).zfill(3)}. Title :** <i>{lessonName}</i>\n\n» **Batch** ({raw_text4}p) **:** {mm}\n» **Downloaded By (क्या करना है जान के😂😂😂)**"
+                    cc = f"**{str(count).zfill(3)}. Title :** <i>{lessonName}</i>\n\n» **Batch** ({raw_text4}p) **:** {mm}\n» **Please Don't Sell Video**"
                     Show = f"**Downloading:-**\n**Title -** ```{lessonName}\n\nQuality - {raw_text4}```\n\n**Url :-** ```{link}```"
                     prog = await m.reply_text(Show)
 
